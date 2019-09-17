@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.root{
+    --white: rgb(233, 233, 194);
+}
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+html{
+    background: rgb(247, 188, 63);
+}
+.container{
+    width: 100%;
+    margin: 0 auto;   
+}
+header{
+    background-color : black;
+    padding: 15px;
+    color: rgb(155, 99, 31);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+a{
+ color: rgb(155, 99, 31);
+ text-decoration: none;
+}
+
+/* @media only screen and(max-width: 576px) {
+    .side2{
+       width:100%
+    } */
+    /* .side1{
+        width:100%;
+    } */
+    /* .main{
+        padding: 10%;
+    } */
+/* } */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+} 
+
+.side1{
+    width: 50%;
+    text-align: center;
+}
+.side1 img{ 
+max-width: 100%;
+
+} 
+#smart{
+    color: chocolate;
+}
+#desc{
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+.side2{
+    background-color: black;
+    width: 48%;
+    color:beige;
+    padding: 1%;
+   display: grid;
+}
+
+legend{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(155, 99, 31);
+    margin-bottom: 15px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid beige;
+    border-radius: 5px;
+    box-shadow: 2px;
+    background-color: black;
+    display:flex;
+    color: rgb(233, 233, 194);
+  }
+  .col-25{
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+  }
+  .col-75{
+    width: 80%;
+    float: left;
+  }
+ 
+input[type=submit]{
+    width: 100px;
+    background-color: rgb(155, 99, 31);
+    float: right;
+    /* border: none; */
+    box-shadow:none;
+}
+footer{
+    background-color:black;
+    height : 20px;
+    width: 100%;
+}
