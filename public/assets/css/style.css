@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Dancing+Script:700|Roboto:100i,400,700&display=swap');
+.root{
+    margin: 0;
+    padding: 0;
+}
+.description{
+    background-image: url("../images/bg3.jpg");
+}
+.description,
+.adminbg,
+.attendancebg{
+    height: 100vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+header{
+    background:linear-gradient(to left, rgba(9, 15, 26, 0.6),rgb(33, 56, 121));
+    /* padding: 15px; */
+    display: block;
+    /* justify-content: space-between; */
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    min-height: 30px;
+    position: fixed;
+}
+.logo{
+    float: left;
+
+}
+a{
+    /* color: #ffffff; */
+    font-size: 15px;
+    text-decoration: none;
+    color: darkorange;
+}
+header .brand{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: auto;
+    float: left;
+}
+.brand h1{
+    text-shadow: -1px 1px 1px 2px red;
+    margin-top: 10px;
+    /* padding: 0 0 15px -20px; */
+}
+.brand h1 span,
+.pageTitle{
+    color: darkorange;
+}
+header ul,
+.pageTitle{
+    margin-top: 22px;
+    float: right;
+}
+header li{
+    display: inline;
+    padding: 0 40px;
+    list-style-type: none;
+    
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* overflow:hidden; */
+}
+.logo{
+    width: 80px;
+}
+.brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.pagedesc{
+    padding: 250px 0;
+    text-align: center;
+}
+.pagedesc h1{
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 2em;
+    color: rgba(9, 15, 26, 0.8);
+}
+.pagedesc p{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+}
+hr{
+    background-color: darkorange;
+}
+.adminbg{
+    background-image: url("../images/image9.png");
+    background-color: beige;
+}
+.attendancebg{
+    background-color: rgb(112, 118, 121);
+}
+
+/* style for forms */
+/* .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  */
+
+/* .side1{
+    width: 50%;
+    text-align: center;
+}
+.side1 img{ 
+max-width: 100%;
+
+}  */
+
+
+.adminlogin,
+.attendanceForm{
+    margin: 0 20%;
+}
+.pageContent{
+    padding: 10em;
+}
+#smart{
+    color: chocolate;
+}
+#desc{
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+legend{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(155, 99, 31);
+    margin-bottom: 15px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(197, 112, 9);
+    border-radius: 5px;
+    box-shadow: 2px;
+    background-color: black;
+    /* display:flex; */
+    color: rgb(233, 233, 194);
+  }
+  /* .col-25{
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+  }
+  .col-75{
+    width: 80%;
+    float: left;
+  } */
+ 
+input[type=submit],
+input[type=button]{
+    width: 110px;
+    background-color: rgb(197, 112, 9);
+    /* color: black; */
+    border: 1px solid black;
+    /* float: right; */
+    /* border: none; */
+    box-shadow:none;
+}
+.actionButtons{
+    margin: 0 20%;
+}
+/* .actionButtons input{
+    width: 110px;
+} */
+
+footer{
+    background-color: black;
+    color: rgb(197, 112, 9);
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+   /* margin-bottom: 100px; */
+}

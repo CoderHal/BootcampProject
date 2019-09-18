@@ -17,8 +17,8 @@
         clear: both;
       }
 }
-html{
-    background: rgb(247, 188, 63);
+body{
+    background: black;
 }
 .container{
     width: 100%;
@@ -54,11 +54,12 @@ a{
         padding: 10%;
     } */
 /* } */
-.main{
+
+/* .main{
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
-} 
+}  */
 
 .side1{
     width: 50%;
@@ -91,8 +92,8 @@ legend{
     margin-bottom: 15px;
 }
 input {
-    width: 100%;
-    padding: 12px;
+    /* width: 100%; */
+    padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid beige;
@@ -102,7 +103,7 @@ input {
     display:flex;
     color: rgb(233, 233, 194);
   }
-  .col-25{
+  /* .col-25{
     width: 20%;
     float: left;
     vertical-align: middle;
@@ -110,7 +111,7 @@ input {
   .col-75{
     width: 80%;
     float: left;
-  }
+  } */
  
 input[type=submit]{
     width: 100px;
@@ -121,6 +122,6 @@ input[type=submit]{
 }
 footer{
     background-color:black;
-    height : 20px;
+    height : 100px;
     width: 100%;
 }

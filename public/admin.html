@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="actionButtons">
+                    <input type="submit" value="Add Employee" id="createEmployee">
+                    <input type="submit" value="Update" id="updateEmployee">
+                    <input type="submit" value="View All" id="viewAllEmployee">
+                    <input type="submit" value="View One" id="viewOneEmployee">
+                    <input type="submit" value="Delete" id="deleteEmployee">
+                 </div>
+                 <div class="employeeForm">
+                    <form name="addEmployee" onsubmit="return validateForm()" method="post">
+                        <fieldset>
+                            <legend>Create Employee Account</legend>
+                            <div>
+                                <label>FirstName</label>
+                                <input type="text" id="firstName" name='Firstname' value='' placeholder="Firstname" size="40">
+                            </div>
+    
+                            <div>
+                                <label>LastName</label>
+                                <input type="text" id = "lastName" name='Lastname' value='' placeholder="Lastname" size="40">
+                            </div>
+    
+                            <div>
+                                <label>Department</label>
+                                <input type="text" id="department" name='department' value='' placeholder="Department" size="40"> 
+                            </div>
+    
+                            <div>
+                                <label>Email</label>
+                                <input type="email" name='mail' id="EmployeeMail" value='' placeholder="Email" size="65">
+                            </div>
+    
+                            <div>
+                                <label>Create Password</label>
+                                <input type="password" id="passWord" name='assword' value='' placeholder="Password" size="15">
+                            </div>
+    
+                            <div>
+                                <label>Phone number</label>
+                                <input type="tel" name='phonenumber' id="phoneNumber" value='' placeholder="Phone number" size="15">
+                            </div>
+                            <div>
+                                <input type="submit" value="Add Employee" name="submit" id="addEmployee">
+                            </div>
+                        </fieldset>   
+                    </form>
+                 </div>
+    </div>
+       
+</body>
+</html>
