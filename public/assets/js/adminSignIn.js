@@ -8,11 +8,9 @@ $(function() {
                 type:'GET',
                 url: 'http://localhost:3000/admin',
                 success:function(data){
-                    console.log(data);
                     $.each(data, function(index,admin){
-                        console.log(admin);
                         if(admin.email === adminMail && admin.password === adminPassword){
-                            window.location.href = "../admin.html"
+                            window.location.href = "../adminDashboard.html"
                         } else{
                             console.log('error')
                         }

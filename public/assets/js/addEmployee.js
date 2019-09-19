@@ -1,7 +1,7 @@
 $('window').ready(function(){
-    $('#addEmployee').on('click', ()=>{
+    $('#addEmployee').on('submit', ()=>{
         event.preventDefault()
-        alert('hi');
+        // alert('hi');
         let firstName = $('#firstName').val();
         let lastName = $('#lastName').val();
         let department = $('#department').val();

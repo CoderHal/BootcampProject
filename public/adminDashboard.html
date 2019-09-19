@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <h2> Dashboard |<span> Admin</span></h2>
+            </div>
+            <nav>
+                <ul>
+                    <li class="dashboard-items"><a href="index.html">Home</a></li>
+                    <li class="dashboard-items current"><a href="./addEmployee.html">Add Employee</a></li>
+                    <li class="dashboard-items"><a href="./">View All Employee</a></li>
+                    <li class="dashboard-items"><a href="">Delete Employee</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="dashboard">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Time In</th>
+                        <th>Time Out</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="viewEmployee">
+                </tbody>
+            </table>
+        </div>
+
+        <!-- <div class="actionButtons">
+            <input type="submit" value="Add Employee" id="createEmployee">
+            <input type="submit" value="Update" id="updateEmployee">
+            <input type="submit" value="View All" id="viewAllEmployee">
+            <input type="submit" value="View One" id="viewOneEmployee">
+            <input type="submit" value="Delete" id="deleteEmployee">
+         </div> -->
+    </section>
+    <footer>
+        <p class="copyright"> © Copyright 2019. All rights reserved. coderHal</p>
+    </footer>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/adminDashboard.js"></script>
+</body>
+</html>

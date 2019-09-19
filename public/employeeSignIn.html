@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/employeeSignIn.css" /> -->
 </head>
 <body>
         <header>
@@ -21,30 +22,21 @@
         </header>
         <div class="pageContent attendancebg">
             <p>Login to mark attendance.</p>
-            <form action="" name="attendanceForm" class="attendanceForm">
-                <div class="row">
-                        <div class="col-25">
-                            <label>Email</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="email" name='mail' id="email" value='' placeholder="Email">
-                        </div> 
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label>Password</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="password" name='password' id="password" value='' placeholder="Password">
-                        </div> 
-                    </div>
+            <form action="" name="attendanceForm" id="attendanceForm">
                 <div>
-                    <input type="submit" value="Sign In" id="signIn">
-                    <input type="submit" value="Sign Out" id="signOut">
+                    <label>Email</label>
+                    <input type="email" name='mail' id="email" value='' placeholder="Email">
                 </div>
-                
+                <div>
+                    <label>Password</label>
+                    <input type="password" name='password' id="password" value='' placeholder="Password">
+                </div>
+                <div class="actionButtons">
+                    <button type="submit" value="Sign In" id="signIn">Sign In</button>
+                    <button type="submit" value="Sign Out" id="signOut">Sign Out</button>
+                </div>
                 <div class="links">
-                    <a class="a-link" href="#"><p> Forgot password? </p></a>
+                    <a class="" href="#"><p> Forgot password? </p></a>
                 </div>
                             
             </form>
@@ -52,6 +44,8 @@
         <footer>
                 <p class="copyright"> © Copyright 2019. All rights reserved. coderHal</p>
         </footer>
+        <script src="./assets/js/jquery.js"></script>
+        <script src="./assets/js/employeeSignIn.js"></script>
 </body>
 </html>
 
